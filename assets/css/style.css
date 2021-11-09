@@ -6,6 +6,13 @@
   scroll-behavior: smooth;
 }
 
+html, html body, body #wrapper {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    overflow-x: hidden;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
