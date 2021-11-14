@@ -749,6 +749,7 @@ section {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
   border-radius: 4px;
   padding-bottom: 1%;
+  padding-top: 1%;
   text-align: center;
 }
 
