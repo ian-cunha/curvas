@@ -512,7 +512,7 @@ section {
 .conceito h2 {
   font-size: 18px;
   font-weight: 700;
-  color: black;
+  color: f6f9ff;
   text-align: justify;
 }
 .conceito p {
@@ -585,6 +585,18 @@ section {
   transform: translateX(5px);
 }
 
+.font{
+  color: white;
+  font-weight: 500;
+}
+
+.strongTitulo{
+  color: black;
+}
+
+#divLayout{
+  padding-top: 0%;
+}
 
 
 /*--------------------------------------------------------------
@@ -757,4 +769,34 @@ section {
 .img-conquista {
   border: 0;
   box-shadow: none;
+}
+
+/*--------------------------------------------------------------
+# política de segurança
+--------------------------------------------------------------*/
+.seguranca .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+}
+.seguranca h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #382560;
+  text-align: center;
+  text-transform: uppercase;
+}
+.seguranca h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  text-align: justify;
+}
+.seguranca p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.seguranca .container .func-box {
+  background: #382560;
 }
