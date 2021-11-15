@@ -1,4 +1,4 @@
-(function() {
+(function () {
   "use strict";
 
   /**
@@ -104,7 +104,7 @@
   /**
    * Mobile nav toggle
    */
-  on('click', '.mobile-nav-toggle', function(e) {
+  on('click', '.mobile-nav-toggle', function (e) {
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
@@ -113,7 +113,7 @@
   /**
    * Mobile nav dropdowns activate
    */
-  on('click', '.navbar .dropdown > a', function(e) {
+  on('click', '.navbar .dropdown > a', function (e) {
     if (select('#navbar').classList.contains('navbar-mobile')) {
       e.preventDefault()
       this.nextElementSibling.classList.toggle('dropdown-active')
@@ -123,7 +123,7 @@
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
-  on('click', '.scrollto', function(e) {
+  on('click', '.scrollto', function (e) {
     if (select(this.hash)) {
       e.preventDefault()
 
@@ -198,9 +198,9 @@
 
       let portfolioFilters = select('#portfolio-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#portfolio-flters li', function (e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        portfolioFilters.forEach(function (el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
@@ -286,16 +286,43 @@
 $("#myCarousel").carousel();
 
 // Enable Carousel Indicators
-$(".item").click(function(){
-    $("#myCarousel").carousel(1);
+$(".item").click(function () {
+  $("#myCarousel").carousel(1);
 });
 
 // Enable Carousel Controls
-$(".left").click(function(){
-    $("#myCarousel").carousel("prev");
+$(".left").click(function () {
+  $("#myCarousel").carousel("prev");
 });
 
 
-function OpenVideoJoara(){
-  window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+function OpenVideo(a) {
+
+  switch (a) {
+
+    case 1:
+      window.open("https://www.google.com");
+      break;
+
+    case 'Oranges':
+      window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+      break;
+
+    case 'Papayas':
+      window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+      // expected output: "Mangoes and papayas are $2.79 a pound."
+      break;
+
+    case 'Oranges':
+      window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+      break;
+
+    case 'Oranges':
+      window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+      break;
+
+    default:
+      window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+      break;
+  }
 }

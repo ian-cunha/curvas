@@ -656,9 +656,10 @@ section {
   transform: translateX(5px);
 }
 
-.carousel-item iframe{
-  margin-left: 23%;
+.depoimentos .container .h4{
+  color: white;
 }
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
