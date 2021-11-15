@@ -294,3 +294,8 @@ $(".item").click(function(){
 $(".left").click(function(){
     $("#myCarousel").carousel("prev");
 });
+
+
+function OpenVideoJoara(){
+  window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+}
