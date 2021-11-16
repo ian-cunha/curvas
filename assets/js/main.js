@@ -301,32 +301,32 @@ function OpenVideo(a) {
   switch (a) {
 
     case 1:
-      window.open("https://www.google.com");
+      window.open("https://www.youtube.com/watch?v=b6nTU_mV_eU");
       break;
 
-    case 'Oranges':
-      window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+    case 2:
+      window.open("https://www.youtube.com/watch?v=k-E0E61q1rci");
       break;
 
-    case 'Papayas':
-      window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+    case 3:
+      window.open("https://drive.google.com/file/d/1ot1eSZnvjkudcMHxePcjg8MB_MYwzZHF/view?usp=sharing");
       // expected output: "Mangoes and papayas are $2.79 a pound."
       break;
 
-    case 'Oranges':
-      window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+    case 4:
+      window.open("https://drive.google.com/file/d/11u96QkrOPfOSls3JP8ICrdtNSwfnpveC/view?usp=sharing");
       break;
 
-    case 'Oranges':
-      window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
-      break;
-
-    default:
-      window.open("https://www.youtube.com/embed/yrnKmMIPmaE");
+    case 5:
+      window.open("https://www.youtube.com/watch?v=ci0_M8blQOU");
       break;
   }
 }
 
-function InstagranCurvas(){
+function InstagranCurvas() {
   window.open("https://www.instagram.com/curvaseducacao/");
+}
+
+function EnviarEmail(a, b) {
+  window.open('curvas:curvas.educacao@gmail.com');
 }
