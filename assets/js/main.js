@@ -303,7 +303,6 @@ function OpenVideo(a) {
     case 1:
       window.open("https://www.youtube.com/watch?v=b6nTU_mV_eU");
       break;
-
     case 2:
       window.open("https://www.youtube.com/watch?v=k-E0E61q1rci");
       break;

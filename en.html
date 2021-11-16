@@ -15,7 +15,9 @@
   <link href="assets/img/touch-icon.png" rel="touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +29,8 @@
 
   <!-- CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
 
@@ -42,20 +46,18 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#inicio">Home</a></li>
-          <li><a class="nav-link scrollto" href="#conceito">Concept</a></li>
-          <li><a class="nav-link scrollto" href="#funcionalidade">About</a></li>
-          <li><a class="nav-link scrollto" href="#negocios">Business</a></li>
-          <!--<li><a class="nav-link scrollto" href="#depoimentos">Depoimentos</a></li>-->
-          <li><a class="nav-link scrollto" href="#conquistas">Conquest</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <div class="dropdown">
-            <a class="btn dropdown-toggle" type="button" data-toggle="dropdown">Language</a>
-            <ul class="dropdown-menu">
-              <li><a href="index.html">PT<img src="./assets/img/flags/brasil.png" alt="brasil" width="25" height="25"></a></li>
-              <li><a href="en.html">EN<img src="./assets/img/flags/united-states.png" alt="brasil" width="25" height="25"></a></li>
-            </ul>
-          </div>
+
+          <li><a class="nav-link scrollto active" href="#inicio">Início</a></li>
+          <li><a class="nav-link scrollto" href="#Pitch">Pitch</a></li>
+          <li><a class="nav-link scrollto" href="#funcionalidade">Sobre</a></li>
+          <li><a class="nav-link scrollto" href="#conquistas">Conquistas</a></li>
+          <li><a class="nav-link scrollto" href="#depoimentos">Depoimentos</a></li>
+          <li><a class="nav-link scrollto" href="#team">Time</a></li>
+          <li><a href="index.html">PT -<img src="./assets/img/flags/brasil.png" alt="brasil" width="25" height="25"></a>
+          </li>
+          <li><a href="en.html">EN -<img src="./assets/img/flags/united-states.png" alt="brasil" width="25"
+                height="25"></a></li>
+          <li><a class="nav-link scrollto" href="#seguranca">Politica de Segurança</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -69,12 +71,15 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Meet Curvas</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">A fun way to measure student achievement and promote access to the labor market.</h2>
+          <h1 data-aos="fade-up">Conheça o Curvas</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Uma maneira divertida de medir o resultado dos estudantes e de
+            promover o acesso ao mercado de trabalho.</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#conceito" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>How it works?</span>
+              <a href="https://docs.google.com/document/d/12JL47cTwib_4P3ovPLudEhpHBBfWhmtD/edit?usp=sharing&ouid=103150144685477930596&rtpof=true&sd=true"
+                target="_blank"
+                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Conheça mais</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -89,29 +94,46 @@
   </section><!-- End Inicio -->
 
   <main id="main">
-    <!-- ======= Conceito ======= -->
-    <section id="conceito" class="conceito">
+    <!-- ======= Pitch ======= -->
+    <section id="Pitch" class="conceito">
 
       <div class="container" data-aos="fade-up">
         <div class="row gx-0">
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="./assets/img/Depoimentos/6.png" class="img-fluid img-2">
+
+            <br>
+            <button type="button" class="btn btn-outline-danger" onclick="OpenVideo(6)">
+              <i class="bi bi-youtube"></i>
+              Youtube
+            </button>
+            <br>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
-              <h3>Concept</h3>
-              <h2>According to the International Student Assessment Program (Pisa), which assessed 79 countries in 2018, Brazil is one of the five most unequal economies in the world in terms of education.</h2>
-              <p>
-                A good example happens in the communities of the City of Rio de Janeiro. At the Desembargador Oscar Tenório Municipal School, in Gávea, Zona Sul, the score achieved was 2.5, the worst in the state for the initial grades of elementary school. At Colégio Estadual Lauro Sodré, in Higienópolis, North Zone, the data are even more alarming: grade 0.8 for the final series. Knowing that the average goal by IDEB (Basic Education Development Index) is 6.0. the country's socioeconomic status is the third largest in the world in science and reading; and the fifth in mathematics. Students with higher purchasing power scored 100 points higher than poorer students. Carried out through a test, the program is carried out by the Organization for Economic Cooperation and Development (OECD). Based on these data, it is possible to have a better view of the failures in education and thus take the necessary measures to improve the quality of education.
-                Thus, Curvas will reduce bureaucracy through computerization, where teachers can save up to 34% of the time spent on bureaucracy, by automating processes, that saved time can be used to prepare attractive classes and ensure classroom learning! For students a fun way to take your assessment through gamification. In the near future, cur.vas will be a white label to be used in other evaluative methods such as internship selection and MEC concept.
-              </p>
+              <h3>Pitch</h3>
+              <h2>Olá sou joara Paula có fundadora do curvas e vim compartilhar conhecimento educacional, pois a
+                educação durante a pandemia evidenciou vários cenários que comprovam a necessidade de transformação. De
+                criar novos cenários em que o conhecimento seja democrático a todos, sendo esses um dos objetivos do
+                curvas. Para isso vamos atuar nas avaliações de conhecimento, que compoem o IDEB - Índice de
+                Desenvolvimento da Educação Básica. Criando uma forma de avaliar, monitorar, recompensar, reconhecer e
+                multiplicar o conhecimento dos estudantes.</h2>
+
+              <a href="pitch.html"
+                class="btn-get-process scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Ver mais</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
             </div>
           </div>
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/ideb.png" class="img-fluid" alt="">
-          </div>
+
+
         </div>
       </div>
 
-    </section><!-- End Conceito -->
+    </section><!-- End Pitch -->
 
 
     <!-- ======= Funcionalidade ======= -->
@@ -120,120 +142,338 @@
       <div class="container" data-aos="fade-up">
         <div class="row gx-0">
 
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+
+
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <header class="section-header">
+              <h2>Como funciona?</h2>
+              <p>O Curvas é um web app com todos os dados disponíveis nas nuvens AZURE, funciona como um jogo estilo
+                QUIZ.</p>
+              <h4> Cada aluno pode ter alguns apoios, para formar seu conhecimento e atender alguns critérios:</h4>
+            </header>
+
+            <div class="row gy-4">
+
+              <div class="container" data-aos="fade-up" data-aos-delay="200">
+                <div class="func-box red">
+                  <li>Contar com 3 amigos para ajudar a responder a questão, o objetivo disso é criar engajamento entre
+                    os alunos e competição que estimule os alunos. Cada amigo só pode ajudar uma vez.</li>
+                  <li>Contar com apoio de sala de aula, de acordo com a pergunta, um repositório de aula pode ser usado
+                    para que o aluno possa ler o conteúdo e chegar até a resposta, Ensinando o aluno a aprender,
+                    pesquisar e usar seu material didático.</li>
+                  <li>Base de conhecimento, ele pode consultar um repositório que ele crie, guardando algumas perguntas
+                    e respostas que errou e foi apresentada a forma certa para que esse material atue como um reforço.
+                  </li>
+                  <li>Critério - o Curvas só será liberado em horários de intervalos, pela escola ou para turmas que
+                    estejam sem aulas. Onde de acordo com grau de dificuldade da questão e do aluno as mesma tem um
+                    tempo de resolução. A medida que o aluno aprende ou tem dificuldade esse tempo é melhor distribuído
+                    para ele organizar seu tempo e ter um planejamento para execução de provas.</li>
+                  <li>Critério - dados dos alunos não serão expostos para outros alunos.</li>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-header">
+              <div class="container" data-aos="fade-up" data-aos-delay="200">
+                <div class="func-box white">
+                  <p>O Curvas será ágil e simples tendo apenas 10 questões, ao acertar as questões o aluno é ranqueado.
+                    O ranking será pela série, pela escola, pela região educacional e por fim pelo Brasil. Cada ranking
+                    dará ao aluno premiação e reconhecimento diferente, além de ser visto por outros alunos que
+                    participam.</p>
+                </div>
+              </div>
+
+              <!--<a href="./assets/img/Processo Curvas.pdf" target="_blank"
+                class="btn-get-process scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Processo Curvas</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>-->
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out" data-aos-delay="200">
             <img src="assets/img/agil.png" class="img-fluid img-2" alt="">
-          </div>
 
+            <br><br><br><br><br>
 
-        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-        <header class="section-header">
-          <h2>How it works?</h2>
-          <p>Curvas is a web app with all the data available in AZURE clouds, it works like a QUIZ-style game, based on the KUMON methodology.</p>
-          <h4>Each student can have some support, to form their knowledge and meet some criteria:</h4>
-        </header>
-
-        <div class="row gy-4">
-
-          <div class="container" data-aos="fade-up" data-aos-delay="200">
-            <div class="func-box red">
-              <li>Having 3 friends to help answer the question, the purpose of this is to create engagement among students and competition that encourages students. Each friend can only help once.</li>
-              <li>With classroom support, according to the question, a classroom repository can be used so that the student can read the content and get to the answer, teaching the student to learn, research and use their teaching materials.</li>
-              <li>Knowledge base, he can consult a repository that he creates, keeping some questions and answers that went wrong and was presented in the right way for this material to act as reinforcement.</li>
-              <li>Criteria - Curvas will only be released at break times, by the school or for classes that are not attending classes. Where, according to the degree of difficulty of the question and of the student, it has a resolution time. As the student learns or has difficulty, this time is better distributed for him to organize his time and have a plan for running tests.</li>
-              <li>Criteria - Student data will not be exposed to other students.</li>
-            </div>
-          </div>
-        </div>
-
-        <div class="section-header">
-          <div class="container" data-aos="fade-up" data-aos-delay="200">
-            <div class="func-box white">
-               <p>Curvas will be agile and simple, having only 10 questions, when the questions are correct, the student is ranked. The ranking will be by grade, by school, by educational region and finally by Brazil. Each ranking will give the student a different award and recognition, in addition to being seen by other participating students.</p>
-            </div>
-        </div>
-
-        <a href="./assets/img/Processo Curvas.pdf" target="_blank" class="btn-get-process scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-          <span>Curvas Process</span>
-          <i class="bi bi-arrow-right"></i>
-        </a></div>
-        </div>
-      </div>
-
-        <div class="d-flex flex-row-reverse bd-highlight" data-aos="fade-up" data-aos-delay="200">
-          <div class="container" data-aos="fade-up" data-aos-delay="200">
-            <div class="func-box purple">
-
-              <header class="section-header2">
-                <h3>Usability of Curves, based on project validation</h3>
-                <p>The usability of Curvas is very simple, the student accesses it at times defined by the teacher or educational institution. It is not possible to use it during class or at undefined times, for access simply enter your school identification data. The initial questions he chooses so that he gets the maximum score, answering only what he considers easy or knows how to answer (Kumon method).</p>
-              </header>
-
+            <div class="d-flex flex-row-reverse bd-highlight" data-aos="fade-up" data-aos-delay="200">
+              <div class="container" data-aos="fade-up" data-aos-delay="200">
+                <div class="func-box purple">
+    
+                  <header class="section-header2">
+                    <h3>Usabilidade do Curvas, baseada na validação do projeto</h3>
+                    <p>A usabilidade do Curvas é bem simples, o aluno acessa o mesmo nos horários definidos pelo professor
+                      ou instituição de ensino. Não sendo possível usar durante a aula ou horários não definidos, para o
+                      acesso basta colocar seus dados de identificação da escola. As questões iniciais ele escolhe de forma
+                      que ele tire nota máxima, respondendo apenas aquilo que ele considera fácil ou sabe responder.</p>
+                  </header>
+    
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
       </div>
-    </div>
+      </div>
 
     </section><!-- End Funcionalidade -->
 
 
-    <!-- ======= Negócios ======= -->
-    <div id="negocios" class="container" data-aos="fade-up">
-      <div class="row gx-0">
+    <!-- ======= Conquistas ======= -->
+    <section id="conquistas" class="conquistas">
+      <div class="d-flex flex-row-reverse bd-highlight" data-aos="fade-up" data-aos-delay="200">
+        <div class="container" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-          <div class="content">
           <header class="section-header">
-            <h2>The Business Plan</h2>
-            <p>The business model is very simple, we know that the form of payment by government agencies is through licenses. For this, the amount to be charged per month will be based on the common factors of a license (cost). However, as a design business strategy, the first year of using curves will be a pilot in some schools. </p>
+            <h2>Conquistas</h2>
+            <br>
+            <div class="container" data-aos="fade-up">
+              <div class="row gx-0">
+                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out"
+                  data-aos-delay="200">
+                  <img src="./assets/img/conquistas/Betteducar.png" class="img-conquista" alt="..."
+                    class="img-thumbnail" width="300px">
+                </div>
+
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                  A Bett Educar é o maior evento de educação e tecnologia da América Latina. Congrega, anualmente, mais
+                  de 270 empresas nacionais e internacionais, mais de 20 startups do setor e cerca de 30.000
+                  participantes da comunidade educacional de todos os estados brasileiros. E foi por esse evento que
+                  começamos a história do Curvas, que começou muito bem. Todo aprendizado e desenvolvimento está
+                  colaborando demais para nosso crescimento e entrada no mercado. E assim a nossa história que está
+                  começando ainda vai ter muitos capítulos com finais felizes.
+                </div>
+
+              </div>
+            </div>
+
+            <div class="container" data-aos="fade-up">
+              <div class="row gx-0">
+                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out"
+                  data-aos-delay="200">
+                  <img src="./assets/img/conquistas/Imagine Cup.png" class="img-conquista" alt="..."
+                    class="img-thumbnail" width="300px">
+                </div>
+
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                  A Imagine Cup é uma competição anual patrocinada e hospedada pela Microsoft Corp. que reúne estudantes
+                  desenvolvedores em todo o mundo para ajudar a resolver alguns dos desafios mais difíceis do mundo. Nós
+                  do Curvas submetemos a nossa proposta para a competição mundial e fomos classificados para grande
+                  Final Nacional! Estamos imensamente felizes, trabalhando forte e duro para chegarmos a final mundial e
+                  representar muito bem o nosso país. Então vem com a agente fazer a diferença na educação por meio do
+                  Curvas.
+                </div>
+
+              </div>
+            </div>
           </header>
         </div>
       </div>
-      <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-        <img src="assets/img/pisa.png" class="img-fluid" alt="">
-      </div>
-      </div>
-      </div>
-    </section><!-- End Negócios -->
-
-        <!-- ======= Conquistas ======= -->
-        <section id="conquistas" class="conquistas">
-          <div class="d-flex flex-row-reverse bd-highlight" data-aos="fade-up" data-aos-delay="200">
-            <div class="container" data-aos="fade-up" data-aos-delay="200">
-    
-              <header class="section-header">
-                <h2>Conquest</h2>
-              </header>
-    
-              <img src="./assets/img/conquistas/Betteducar.png" class="img-conquista" alt="..." class="img-thumbnail" width="300px">
-              <img src="./assets/img/conquistas/Imagine Cup.png" class="img-conquista" alt="..." class="img-thumbnail" width="300px">
-            </div>
-          </div>
-        </section><!-- End Conquistas -->
+    </section><!-- End Conquistas -->
 
     <!-- ==== Depoimentos ===== -->
-    <!--<section id="depoimentos" class="depoimentos">
+    <section id="depoimentos" class="depoimentos">
 
-      <div class="container" data-aos="fade-up">
-        <div class="row gx-0">
+      <div class="row gy-4">
+        <div class="container" data-aos="fade-up" data-aos-delay="200">
+          <div class="func-box grad">
 
-    <div class="row gy-4">
-      <div class="container" data-aos="fade-up" data-aos-delay="200">
-        <div class="func-box grad">
+            <header class="section-header2">
+              <h3>Depoimentos<i></i></h3>
+              <br>
 
-          <header class="section-header2">
-            <a href="#"><h3>Depoimentos<i class="bi bi-arrow-right"></i></h3></a>
-          </header>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
 
+                    <div class="container" data-aos="fade-up">
+                      <div class="row gx-0">
+
+                        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out"
+                          data-aos-delay="200">
+                          <img src="./assets/img/Depoimentos/5.png" class="img-fluid img-2">
+                        </div>
+                        <div class="d-grid gap-2 col-4 mx-auto">
+                          <button type="button" class="btn btn-outline-danger" onclick="OpenVideo(5)">
+                            <i class="bi bi-youtube"></i>
+                            Youtube
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="carousel-item" id="carousel-item">
+
+                    <div class="container" data-aos="fade-up">
+                      <div class="row gx-0">
+
+                        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out"
+                          data-aos-delay="200">
+                          <img src="./assets/img/Depoimentos/4.png" class="img-fluid img-2">
+                        </div>
+                        <div class="d-grid gap-2 col-4 mx-auto">
+                          <button type="button" class="btn btn-outline-danger" onclick="OpenVideo(4)">
+                            <i class="bi bi-youtube"></i>
+                            Youtube
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="carousel-item" id="carousel-item">
+
+                    <div class="container" data-aos="fade-up">
+                      <div class="row gx-0">
+
+                        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out"
+                          data-aos-delay="200">
+                          <img src="./assets/img/Depoimentos/3.png" class="img-fluid img-2">
+                        </div>
+                        <div class="d-grid gap-2 col-4 mx-auto">
+                          <button type="button" class="btn btn-outline-danger" onclick="OpenVideo(3)">
+                            <i class="bi bi-youtube"></i>
+                            Youtube
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="carousel-item" id="carousel-item">
+
+                    <div class="container" data-aos="fade-up">
+                      <div class="row gx-0">
+
+                        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out"
+                          data-aos-delay="200">
+                          <img src="./assets/img/Depoimentos/2.png" class="img-fluid img-2">
+                        </div>
+                        <div class="d-grid gap-2 col-4 mx-auto">
+                          <button type="button" class="btn btn-outline-danger" onclick="OpenVideo(2)">
+                            <i class="bi bi-youtube"></i>
+                            Youtube
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="carousel-item" id="carousel-item">
+
+                    <div class="container" data-aos="fade-up">
+                      <div class="row gx-0">
+
+                        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out"
+                          data-aos-delay="200">
+                          <img src="./assets/img/Depoimentos/1.png" class="img-fluid img-2">
+                        </div>
+                        <div class="d-grid gap-2 col-4 mx-auto">
+                          <button type="button" class="btn btn-outline-danger" onclick="OpenVideo(1)">
+                            <i class="bi bi-youtube"></i>
+                            Youtube
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+            </header>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
-    </div>
-    </section>-->
+    </section>
     <!-- End Depoimentos -->
-    
+
+    <!-- ======= seguranca ======= -->
+    <section>
+      <div id="seguranca" class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="d-flex flex-row-reverse bd-highlight" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <header class="section-header">
+                <h2>Politica de Segurança</h2>
+                <p>O Curvas respeita o direito à privacidade e zela pela segurança dos dados pessoais de seus usuários
+                  e, por isso, apresentamos nossa Política de Privacidade, aplicável aos websites, aplicativos, dos
+                  ambientes virtuais de aprendizado e demais soluções e serviços(juntos, a “Plataforma”), onde
+                  descrevemos como coletamos, armazenamos e utilizamos os dados pessoais dos usuários.</p>
+
+                <a href="./politica.html"
+                  class="btn-get-process scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Entenda melhor</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </header>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End seguranca -->
+
+
+     <!-- ======= contato ======= -->
+
+     <div class="d-flex flex-row-reverse bd-highlight" data-aos="fade-up" data-aos-delay="200">
+      <div class="container" data-aos="fade-up" data-aos-delay="200">
+
+        <header class="section-header">
+          <h2>Entre em Contato</h2>
+          <br>
+          <div class="container" data-aos="fade-up">
+            <div class="row gx-0">
+              <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out"
+                data-aos-delay="200">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome ...">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Seu e-mail ...">
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button type="button" class="btn btn-outline-danger" onclick="EnviarEmail(
+                    window.document.getElementById('exampleFormControlInput1').value,
+                    window.document.getElementById('exampleFormControlInput2').value
+                    )">Enviar</button>
+                    <br>
+                </div>
+              </div>
+
+              <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button type="button" class="btn btn-outline-danger" onclick="InstagranCurvas()">
+                    <i class="bi bi-instagram"></i>&nbsp &nbsp Instagram
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+     <!-- End contato -->
 
     <!-- ======= Team ======= -->
     <section id="team" class="team">
@@ -241,7 +481,7 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Team</h2>
+          <h2>Time</h2>
         </header>
 
         <div class="row gy-4">
@@ -251,14 +491,14 @@
               <div class="member-img">
                 <img src="assets/img/team/team-1.png" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.instagram.com/proferaldoguerra/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/eraldo-guerra-6b859553/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
                 <h4>Eraldo Filho</h4>
                 <span>CEO & Founder</span>
-                <p>Entrepreneurship teacher and student.</p>
+                <p>Professor e aluno de empreendedorismo.</p>
               </div>
             </div>
           </div>
@@ -268,31 +508,14 @@
               <div class="member-img">
                 <img src="assets/img/team/team-2.png" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.instagram.com/joarapaula/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/joara-p-de-gouveia-aa4038168"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
                 <h4>Joara Paula</h4>
                 <span>CMO</span>
-                <p>Student of biological sciences and data science.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Thiago Silva</h4>
-                <span>CTO</span>
-                <p>Software engineering with a focus on agile testing.</p>
+                <p>Estudante de ciências biológicas e ciência de dados.</p>
               </div>
             </div>
           </div>
@@ -302,48 +525,33 @@
               <div class="member-img">
                 <img src="assets/img/team/team-4.png" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.instagram.com/ian.pictures/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/ian-matheus-da-cunha-b34b011a0/"><i
+                      class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
                 <h4>Ian Cunha</h4>
                 <span>COO</span>
-                <p>Dev. Front End and web development student.</p>
+                <p>Dev. Front End e estudante de desenvolvimento web.</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-5.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>João Pedro</h4>
-                <span>COO</span>
-                <p>Dev. Full Stack and Computer Engineering Student</p>
-              </div>
-            </div>
-          </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/team-6.png" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.instagram.com/douglasghs__/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/douglas-ruan-b4b6361b7/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
                 <h4>Douglas Ruan</h4>
                 <span>COO</span>
-                <p>Systems Analysis and Development Student</p>
+                <p>Dev. Back End e Estudante de Análise e Desenvolvimento de Sistemas</p>
               </div>
             </div>
           </div>
@@ -361,7 +569,8 @@
   </footer>
   <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
@@ -375,6 +584,15 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
