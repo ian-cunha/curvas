@@ -52,7 +52,7 @@
           <li><a class="nav-link scrollto" href="#funcionalidade">Sobre</a></li>
           <li><a class="nav-link scrollto" href="#conquistas">Conquistas</a></li>
           <li><a class="nav-link scrollto" href="#depoimentos">Depoimentos</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#team">Time</a></li>
           <li><a href="index.html">PT -<img src="./assets/img/flags/brasil.png" alt="brasil" width="25" height="25"></a>
           </li>
           <li><a href="en.html">EN -<img src="./assets/img/flags/united-states.png" alt="brasil" width="25"
@@ -431,13 +431,56 @@
     <!-- End seguranca -->
 
 
+     <!-- ======= contato ======= -->
+
+     <div class="d-flex flex-row-reverse bd-highlight" data-aos="fade-up" data-aos-delay="200">
+      <div class="container" data-aos="fade-up" data-aos-delay="200">
+
+        <header class="section-header">
+          <h2>Entre em Contato</h2>
+          <br>
+          <div class="container" data-aos="fade-up">
+            <div class="row gx-0">
+              <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out"
+                data-aos-delay="200">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome ...">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Seu e-mail ...">
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button type="button" class="btn btn-outline-danger" onclick="EnviarEmail(
+                    window.document.getElementById('exampleFormControlInput1').value,
+                    window.document.getElementById('exampleFormControlInput2').value
+                    )">Enviar</button>
+                </div>
+              </div>
+
+              <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button type="button" class="btn btn-outline-danger" onclick="InstagranCurvas()">
+                    <i class="bi bi-instagram"></i>&nbsp &nbsp Instagram
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+     <!-- End contato -->
+
     <!-- ======= Team ======= -->
     <section id="team" class="team">
 
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Team</h2>
+          <h2>Time</h2>
         </header>
 
         <div class="row gy-4">

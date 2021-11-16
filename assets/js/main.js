@@ -326,3 +326,7 @@ function OpenVideo(a) {
       break;
   }
 }
+
+function InstagranCurvas(){
+  window.open("https://www.instagram.com/curvaseducacao/");
+}
