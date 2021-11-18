@@ -329,3 +329,34 @@ function InstagranCurvas() {
 function EnviarEmail(a, b) {
   window.open('curvas:curvas.educacao@gmail.com');
 }
+
+
+function OpenVideo_Ingles(a) {
+
+  switch (a) {
+
+    case 1:
+      window.open("https://www.youtube.com/watch?v=h1rDikXiCtQ");
+      break;
+    case 2:
+      window.open("https://www.youtube.com/watch?v=8KRFibVVWTk");
+      break;
+
+    case 3:
+      window.open("https://www.youtube.com/watch?v=_6J17TONUdI");
+      // expected output: "Mangoes and papayas are $2.79 a pound."
+      break;
+
+    case 4:
+      window.open("https://www.youtube.com/watch?v=mwfgOWWKCGQ");
+      break;
+
+    case 5:
+      window.open("https://www.youtube.com/watch?v=ci0_M8blQOU"); // Ana
+      break;
+
+    case 6:
+      window.open("https://www.youtube.com/watch?v=uemtGxnetFI");
+      break;
+  }
+}
