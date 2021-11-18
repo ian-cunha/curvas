@@ -58,7 +58,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #ffffff;
+  color: #382560;
   text-align: center;
   text-transform: uppercase;
 }
@@ -70,7 +70,7 @@ section {
   font-weight: 700;
   margin: 0;
   color: #382560;
-  text-align: justify;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -92,7 +92,7 @@ section {
   font-weight: 600;
   margin:10px;
   color: black;
-  text-align: justify;
+  text-align: center;
 }
 @media (max-width: 768px) {
   .section-header p {
@@ -101,8 +101,57 @@ section {
   }
 }
 
+.section-usabilidade h3 {
+  padding:20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-usabilidade p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  margin:10px;
+  color: white;
+  text-align: justify;
+}
+
+.section-politica h3 {
+  padding:20px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.section-politica p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  margin:10px;
+  color: white;
+  text-align: justify;
+}
+
 .img-2 {
   padding:20px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
 
 /*--------------------------------------------------------------
@@ -433,6 +482,7 @@ section {
   font-size: 26px;
 }
 .hero .btn-get-started {
+  text-decoration: none;
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
@@ -532,6 +582,9 @@ section {
   transition: 0.3s;
   border-radius: 5px;
 }
+.func-box {
+  margin:24px;
+}
 .funcionalidade .func-box li {
   color: white;
   font-weight: 600;
@@ -548,7 +601,7 @@ section {
 }
 
 .funcionalidade .func-box.white {
-  margin-top: 20px;
+  margin-top: 60px;
   border-bottom: 3px solid #ffffff;
   background: #ffffff;
 }
@@ -561,6 +614,7 @@ section {
 }
 
 .btn-get-process {
+  text-decoration: none !important;
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
@@ -591,7 +645,7 @@ section {
 }
 
 .strongTitulo{
-  color: black;
+  color: white;
 }
 
 #divLayout{
@@ -644,6 +698,7 @@ section {
 }
 
 .btn-get-process {
+  text-decoration: none;
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
@@ -766,6 +821,11 @@ section {
   text-align: center;
 }
 
+.conq-b {
+  padding:24px;
+  text-align: justify;
+}
+
 .img-conquista {
   border: 0;
   box-shadow: none;
@@ -799,4 +859,21 @@ section {
 
 .seguranca .container .func-box {
   background: #382560;
+}
+
+/*
+Contato
+*/
+
+.contato {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  height: 100%;
+  padding: 30px 30px;
+  text-align: left;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.contato h2 {
+  text-align: center !important;
 }
