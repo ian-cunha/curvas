@@ -877,3 +877,17 @@ Contato
 .contato h2 {
   text-align: center !important;
 }
+
+/*
+Form
+*/
+@media (max-width: 1024px) {
+  div.form-img {
+    display: none !important;
+  }
+}
+
+.cadastre-se {
+  color: #E20450;
+  font-weight: 700;
+}
