@@ -309,7 +309,6 @@ function OpenVideo(a) {
 
     case 3:
       window.open("https://drive.google.com/file/d/1ot1eSZnvjkudcMHxePcjg8MB_MYwzZHF/view?usp=sharing");
-      // expected output: "Mangoes and papayas are $2.79 a pound."
       break;
 
     case 4:
@@ -344,7 +343,6 @@ function OpenVideo_Ingles(a) {
 
     case 3:
       window.open("https://www.youtube.com/watch?v=_6J17TONUdI");
-      // expected output: "Mangoes and papayas are $2.79 a pound."
       break;
 
     case 4:
