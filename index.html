@@ -51,9 +51,10 @@
           <li><a class="nav-link scrollto" href="#depoimentos">Depoimentos</a></li>
           <li><a class="nav-link scrollto" href="#seguranca">Politica de Segurança</a></li>
           <li><a class="nav-link scrollto" href="termosdeuso.html">Termos de uso</a></li>
-          <li><a href="">
-            <button type="button" class="btn btn-danger">Cadastro</button>
-          </a></li>
+          <li>
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" style="margin-left: 10%;">Cadastro</button>
+          </li>
           <li><a class="nav-link scrollto" href="index.html"><img src="./assets/img/flags/brasil.png" alt="portgues"
                 width="25" height="25">&nbsp PT</a></li>
           <li><a class="nav-link scrollto" href="en.html"><img src="./assets/img/flags/united-states.png" alt="ingles"
@@ -89,6 +90,40 @@
     </div>
 
   </section><!-- End Inicio -->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Cargo
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><button class="dropdown-item" type="button">Professor</button></li>
+              <li><button class="dropdown-item" type="button">Coordenador</button></li>
+              <li><button class="dropdown-item" type="button">Gestor</button></li>
+            </ul>
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal -->
+
 
   <main id="main">
     <!-- ======= Pitch ======= -->
